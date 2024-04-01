@@ -1,0 +1,240 @@
+1. Introducción
+
+Este es un juego de cartas para dos jugadores. Los jugadores combaten entre sí con barajas de 50 cartas más 1 carta de líder.
+Los jugadores atacan por turnos al líder del oponente.
+Gana el primer jugador que reduzca a cero la vida del oponente.
+
+2. Cómo ganar
+1. Reducir a 0 la vida del oponente.
+* Ganas en cuanto no queden cartas en la zona de vida.
+2. Agotar el mazo del oponente.
+* Cuando se juega con media baraja, los jugadores no pierden cuando se quedan sin cartas. Se baraja la pila de descartes y se utiliza como mazo.
+
+3. Tipos de cartas
+- Líder
+El líder del equipo, la carta que combate contigo toda la partida.
+¡Cuando la cosa se complica, la carta despierta, dando la vuelta al dorso más poderoso!
+
+Nombre
+Habilidad
+Poder
+
+Nombre del personaje
+Rasgo especial
+Era
+
+Número de carta/Rareza/Color
+
+Icono de Despertar
+
+- Carta de luchador
+Estas cartas combaten junto al líder.
+Combaten en la zona de combate y en la zona de combo.
+
+Energía (coste)
+Poder de combo
+Energía de combo (coste)
+
+Habilidad
+Poder
+
+Tipo de carta
+Nombre de la carta
+
+Nombre del personaje
+Rasgo especial
+Era
+
+Número de carta/Rareza/Color
+
+- Carta extra
+Estas cartas tienen habilidades que se activan directamente desde la mano.
+Se colocan en la pila de descartes después de usarlas.
+
+Energía (coste)
+
+Habilidad
+
+Tipo de carta
+Nombre de la carta
+
+Número de carta/Rareza/Color
+
+- Energía (coste)
+Coste total
+Coste de color
+El número en el centro indica el coste total.
+La energía usada para pagar el coste debe incluir al menos tantas cartas de color como esferas de color se indiquen en la carta.
+
+4. Transcurso del juego
+
+1. Fase de carga
+- Robar una carta
+- Cargar energía
+
+2. Fase principal
+- Jugar cartas de luchador de la mano
+- Usar habilidades
+- Atacar el líder del oponente e infligirle daño
+
+3. Fase final
+- El turno pasa al oponente.
+
+5. Imprescindible
+1. Una carta de líder
+2. Baraja de 50 cartas (25 si se juega con media baraja)
+
+Reglas de construcción de mazos
+- Un total de 50 cartas entre cartas de luchador y cartas extra
+- No se permiten cartas de líder en el mazo
+- Máximo 4 copias de cada carta en el mazo
+
+6. Preparación
+1. Colocar al líder boca arriba en la zona de líder en posición activo. Colocar el mazo boca abajo en la zona del mazo.
+2. Decidir al azar qué jugador empieza.
+3. Robar 6 cartas del mazo. Estas cartas componen la mano.
+4. Se puede volver a robar una vez
+* Devolver cualquier cantidad de cartas al mazo, barajar y volver a robar tantas cartas como se hayan descartado.
+5. Colocar 8 cartas de la parte superior del mazo boca abajo en la zona de vida.
+* No se puede mirar las cartas de la zona de vida durante la partida.
+6. Empezar la partida.
+
+
+Transcurso del juego
+
+1. Fase de carga
+Se realizan las siguentes acciones por orden:
+1. Preparar las cartas agotadas.
+2. Robar una carta del mazo.
+(El jugador inicial no puede robar en el primer turno)
+(No hay límite de cartas en la mano)
+3. Jugar una carta de la mano en la zona de energía en modo activo (preparada).
+(No es obligatorio)
+(No hay límite de cartas en la zona de energía)
+
+2. Fase principal
+Se puede realizar las siguientes acciones tantas veces como se desee:
+- Jugar cartas de luchador de la mano
+Se puede jugar una carta de luchador en la zona de combate en modo activo (preparada) pagando su coste de energía. Se puede pagar el coste de una carta girando (agotando) tantas cartas de de energía como indique la carta. Si la energía (coste) incluye esferas de color, el pago debe incluir la misma cantidad (o más) de cartas del mismo color.
+Ejemplo: si la energía (coste) es (1 rojo, 2 total) hay que pagar el coste agotando (girando) dos cartas en total: una roja y otra de cualquier color.
+
+- Activar habilidades
+Se puede activar habilidades de líder, cartas de luchador o cartas extra con "Activate:Main" de la mano. Si la habilidad indica un coste, se deben cumplir las condiciones para poder activarla.
+Ejemplo: si la energía (coste) es (2 rojo, 4 total) hay que pagar el coste agotando (girando) cuatro cartas en total: dos rojas y otras dos de cualquier color.
+Se pueden activar cartas extra agotando (girando) su coste energético. Las cartas extra usadas se descartan.
+
+- Despertar al líder
+Se puede girar el dorso del líder si se cumplen las condiciones indicadas.
+
+- Combatir
+Se agota (gira) el líder o una carta de luchador y se elige como objetivo el líder del oponente o una de sus cartas de luchador.
+* Las cartas pueden atacar desde el momento en el que se juegan.
+* El jugador inicial no puede atacar en el primer turno.
+Atacar inicia un combate. El oponente puede activar Blocker.
+Blocker (Cuando atacan a otra carta, se puede agotar (girar) esta carta para establecerla como objetivo del ataque)
+
+- Ir a la fase final
+Terminar la fase principal e ir a la fase final.
+
+3. Fase final
+El turno pasa al oponente.
+
+COMBATE
+¡Atacar inicia un combate! Un combate consta de los siguientes pasos:
+
+1. Ataque
+Se puede realizar las siguientes acciones tantas veces como se desee:
+- Combo
+Colocar cartas de luchador de tu mano o de la zona de combate en la zona de combo. (ver detalles)
+- Activar habilidades
+Se puede activar las habilidades Activate:Battle
+- Despertar al líder
+- Proceder al paso de defensa
+Tras terminar el paso de ataque, se pasa al paso de defensa.
+
+2. Defensa
+El oponente puede realizar las siguientes acciones tantas veces como desee:
+- Combo
+Colocar cartas de luchador de la mano o de la zona de combate en la zona de combo. (ver detalles)
+- Activar habilidades
+Se puede activar las habilidades Activate:Battle
+- Despertar al líder
+- Proceder al paso de daño
+Tras terminar el paso de defensa, se pasa al paso de daño.
+
+3. Daño
+Se compara el poder de las cartas en este paso.
+Comparar el poder total de la carta atacante y sus cartas de combo con el poder de la carta defensora y sus cartas de combo. El bando con más poder gana el combate (en caso de empate, gana la parte atacante)
+Si gana la parte atacante, se hace lo siguiente:
+- Si se ha derrotado al líder del oponente, se inflige un punto de daño al oponente.
+(Por cada punto de daño, el oponente roba una carta de su pila de vida a su mano
+- Si se ha derrotado un luchador, se noquea esa carta.
+Las cartas noqueadas se descartan en la pila de descartes.
+
+Se descartan todas las cartas de la zona de combo (de ambos bandos).
+
+Con el paso de Daño se finaliza el combate.
+
+COMBO
+Se pueden jugar cartas de combate activas de la zona de combate en la zona de combo (esto no se considera jugar cartas de luchador)
+Se suma el poder de las cartas de la zona de combo al poder de las cartas de luchador durante el paso de daño.
+
+- Las cartas de luchador en la mano o en la zona de combate (deben estar activas/preparadas) se pueden jugar en la zona de combo pagando (girando) su coste de energía.
+
+- No hay límite al número de cartas que se pueden jugar en la zona de combo.
+
+- Se resuelven los combos una carta tras otra.
+
+Preguntas frecuentes
+P1. ¿Se puede activar habilidades automáticas durante el turno del oponente si se cumplen las condiciones?
+R1. Sí, se pueden activar incluso en el turno del oponente.
+
+P2. ¿Qué pasa si se activan a la vez dos habilidades automáticas?
+R2. Se activan en el orden que se desee.
+
+P3. ¿Qué pasa si se activan a la vez una de tus habilidades automáticas y una de las del oponente?
+R3. Se activa primero la del jugador cuyo turno está en marcha, y luego la del otro.
+
+P4. ¿Qué pasa si se activa una habilidad automática al resolver otra habilidad?
+R4. Se completa la resolución de la habilidad original, y después se activa la habilidad automática.
+
+P5. ¿Las habilidades permanentes se activan en el turno del oponente?
+R5. Sí, si no se indica lo contrario.
+
+P6. ¿Cuánto duran los efectos de las habilidades permanentes?
+R6. Si no se indica lo contrario, las habilidades permanentes están activas hasta que la carta abandona la zona de combate.
+
+P7. ¿Qué se activa primero bajo las mismas condiciones, una habilidad contra (Counter) o una habilidad permanente?
+R7. La habilidad de contra (Counter) se activa primero.
+
+P8. ¿Qué viene antes, la activación de una habilidad Counter:Play o el pago del coste de la carta de luchador jugada?
+R8. El pago del coste de la carta de luchador jugada siempre se efectúa primero. Sigue este procedimiento para jugar una habilidad Counter:Play:
+1. Declara que vas a jugar una carta de luchador y paga su coste.
+2. Declara la activación de la habilidad Counter:Play y paga su coste.
+3. Ejecuta la habilidad Counter:Play.
+4. Juega la carta en la zona de combate.
+
+P9. ¿Se puede jugar una carta Evolve de una carta Son Goku encima de otra carta "___ Son Goku"?
+R9. Sí, se puede evolucionar siempre y cuando el personaje sea Son Goku, independientemente del nombre de la carta.
+
+P10. ¿Se puede elegir una carta bajo una evolución como objetivo de una habilidad o un ataque?
+R10. No, no se puede. Las cartas apiladas como resultado de Evolve se tratan como una sola carta.
+
+P11. ¿Quién elige qué cartas se añaden a la mano de un jugador como resultado de infligir daño con Double Strike?
+R11. El jugador que ha sufrido el daño.
+
+P12. ¿Qué se activa primero, las habilidades activadas por un ataque o Blocker?
+R12. Las habilidades activadas por un ataque.
+
+P13. ¿Qué significan los distintos paréntesis?
+R13. < > Rasgo especial
+{ } Nombre de la carta
+[ ] Tipo de habilidad
+__: El texto antes de los dos puntos indica las condiciones para activar el efecto.
+( ) Notas
+
+P14. Si durante el combate, una carta de luchador atacada vuelve a estar activa, ¿se detiene el combate?
+R14. No, no se detiene. El combate continúa con la carta activa.
+
+
+
